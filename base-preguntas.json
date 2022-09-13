@@ -1,0 +1,156 @@
+[
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿A qué se denomina accidente de tránsito o accidente vial?",
+        "respuesta": "CONTINUAR",
+        "imagen": "https://i.ibb.co/WWHVZdC/accidente-de-transito.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿A qué se denomina siniestro vial?",
+        "incorrecta1": "es lo mismo que accidente vial",
+        "incorrecta2": "es lo mismo que un accidente al volante",
+        "incorrecta3": "es lo mismo que accidente de transito",
+        "incorrecta4": "ninguna es correcta",
+        "respuesta": "todas son correctas",
+        "imagen": "siniestro.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "abcdefghijqlmnopqrstuvwxyz",
+        "respuesta": "",
+        "incorrecta1": "",
+        "incorrecta2": "",
+        "incorrecta3": "",
+        "imagen": "https://i.ibb.co/WWHVZdC/accidente-de-transito.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿Que significa o indica esta señal?",
+        "respuesta": "Prohibido girar a la izquierda",
+        "incorrecta1": "prohibido usar flechas",
+        "incorrecta2": "permitido girar",
+        "incorrecta3": "Prohibido girar a la derecha",
+        "imagen": "prohibido girar a la izquierda.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿A que grupo de gente pertenece esta señal?",
+        "respuesta": "personas discapacitadas",
+        "incorrecta1": "personas sentadas",
+        "incorrecta2": "personas con bicicleta",
+        "incorrecta3": "personas con ruedas",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+        
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿Por que parte de la via deben circular los peatones, como norma general?",
+        "respuesta": "",
+        "incorrecta1": "",
+        "incorrecta2": "",
+        "incorrecta3": "",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+        
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿de cuánto tiempo se dispone para dar aviso sobre el hecho a la compañía aseguradora del vehículo?",
+        "respuesta": "3 Dias",
+        "incorrecta1": "5 Dias",
+        "incorrecta2": "Una semana",
+        "incorrecta3": "Un mes",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿Cada cuánto es recomendable parar si se realiza un viaje largo?",
+        "respuesta": "Cada 2 hs aprox",
+        "incorrecta1": "Cada 4 hs aprox",
+        "incorrecta2": "Cada 3 hs aprox",
+        "incorrecta3": "Cada 1 hs aprox",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "En caso de siniestro, el orden de actuación recomendado cual es?",
+        "respuesta": " proteger- alertar- socorrer",
+        "incorrecta1": "socorrer- proteger- alertar ",
+        "incorrecta2": "no hay orden de accion recomendado",
+        "incorrecta3": "",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿Cúal es la velocidad máxima de circulación en las calles de las zonas urbanas?",
+        "respuesta": "la velocidad máxima es de 40 km/h",
+        "incorrecta1": "60 km/h",
+        "incorrecta2": "110 km/h",
+        "incorrecta3": "90 km/h",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta": "¿Cuál de las siguientes opciones representa a los usuarios de la vía, ordenados de más a menos vulnerable?",
+        "respuesta": "Peatón - Ciclista - Moto - Colectivo - Taxi/Automóvil - Camión",
+        "incorrecta1": "Camión - Colectivo - Moto - Ciclista - Peatón - Taxi/Automóvi",
+        "incorrecta2": "Peatón - Ciclista - Colectivo - Moto - Taxi/Automóvil - Camión",
+        "incorrecta3": "ninguna de las anteriores es correcta",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+        
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta":  "¿Qué se debe evitar al circular en bicicleta?",
+        "respuesta": "Ambas respuestas, A y B, son correctas",
+        "incorrecta1": "usar auriculares y dispositivos electrónicos, que afecten la concentración",
+        "incorrecta2": "Usar ropa oscura y suelta",
+        "incorrecta3": "ninguna de las anteriores es correcta",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta":  "¿Qué son los carriles exclusivos?",
+        "respuesta": "Bandas longitudinales demarcadas en la calzada, destinadas a la circulación de determinados vehículos",
+        "incorrecta1": "Vías con un único sentido de circulación",
+        "incorrecta2": "Lugar por donde circulan ambulancias, bomberos y/o vehículos policiales",
+        "incorrecta3": "",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta":  "¿Qué indica la demarcación horizontal que se visualiza en la imagen? SUBE BAJA",
+        "respuesta": "Carril de detención para el ascenso y descenso de escolares",
+        "incorrecta1": "Estacionamiento para micros escolares",
+        "incorrecta2": "Zona de ascenso y descenso de pasajeros de transporte público",
+        "incorrecta3": "ninguna es correcta",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Seguridad Vial",
+        "pregunta":  "¿Qué debe hacer usted si su vehículo queda inmovilizado en un túnel?",
+        "respuesta": "Apagar el motor, colocar las balizas portátiles, mantener encendidas las luces de posición e intermitentes y llamar al número de asistencia",
+        "incorrecta1": "Dejar el vehículo cerrado y salir del túnel cuanto antes",
+        "incorrecta2": "Apagar todas las luces si el túnel está iluminado y solicitar auxilio a través del teléfono móvil",
+        "incorrecta3": "ninguna es correcta",
+        "imagen": "discapacitados.jpg",
+        "objectFit": "contain"
+    }
+    
+]
+
+

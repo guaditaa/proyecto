@@ -1,0 +1,140 @@
+
+
+/*fondo y cuerpo principal*/
+body{
+    background: url(https://fondosmil.com/fondo/50337.jpg) repeat;
+   font-family: monospace;
+    color: rgb(251, 200, 73);
+}
+
+
+/*configuracion de la "caja"*/
+main{
+    
+    width:600px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+    
+}
+/*texto de juego*/
+h1{
+    text-shadow: 3px 10px 4px #000000;
+    rotate: -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 40px;
+    padding: 20px;
+
+    
+}
+/*lado izquierdo*/
+.section1{
+    padding: 0 10px 10px 10px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border: 3px solid;
+    border-color: rgb(233, 243, 43);   
+}
+
+
+
+/*configuracion de botones*/
+button{
+    height:100px;
+    width:100px;
+    font-size:40px;
+    background-color: rgb(248, 203, 22);
+    color: rgb(0, 0, 0)
+    
+    
+    
+
+}
+
+
+button:hover{
+     cursor: pointer;
+     background-color:rgb(247, 229, 111);
+     
+}
+
+
+/*lado derecho*/
+.section2{
+    background-color: black;
+    width: 250px;
+    height:601px;
+    padding: 0 10px 10px 10px;
+    border: 3px solid;
+    color: rgb(251, 222, 9);
+}
+
+
+.estadisticas{
+    border: 1px solid rgb(255, 255, 255);
+    height: 105px;
+    
+    border-radius: 8px;
+    padding:8px 20px ;
+    box-sizing: border-box;
+}
+/*parte de abajo*/
+footer{
+    text-align: center;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+}
+
+
+td{
+    border: 2px solid;
+    
+    border-color: black;
+
+}
+
+
+h2{
+    color:#ffffff;
+}
+h3{
+    font-size:20px;
+}
+
+
+
+.segundo{
+    background-color:orange;
+}
+
+.vuelta{
+    box-shadow: 3px 4px 27px 4px #0d0d0c;
+    background:linear-gradient(to bottom, #e6ce31 5%, #eef527 100%);
+    background-color:#e6ce31;
+    border-radius:18px;
+
+    border:2px solid #b8b81b;
+    display:inline-block;
+    cursor:pointer;
+    color:#0f0b0f;
+    font-family:Trebuchet MS;
+    font-size:17px;
+    font-weight:bold;
+    font-style:italic;
+    padding:8px 50px;
+    text-decoration:none;
+    text-align:center;
+}
+.vuelta_hover{
+    
+    background:linear-gradient(to bottom, #eef527 5%, #e6ce31 100%);
+	background-color:#eef527;
+
+}

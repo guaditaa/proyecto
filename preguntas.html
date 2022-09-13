@@ -1,0 +1,158 @@
+<!DOCTYPE html><html lang="es"><head>
+  <meta charset="UTF-8">
+  <title>Juego de preguntas</title>
+  <script src="/java_general/sweetalert2.all.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+
+ 
+  <style>
+    * {
+      transition: all 0.3s;
+    }
+
+    body {
+      background-image: url(https://fondosmil.com/fondo/50337.jpg) ;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: calibri;
+      font-size: 120%;
+    }
+
+    .contenedor {
+      width: 98vw;
+      height: 97vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: auto;
+      flex: 1;
+    }
+
+    .encabezado {
+      position: relative;
+      
+      min-width: 300px;
+      width: 70%;
+      max-width: 600px;
+      padding: 10px;
+      background: url(/imagenes_generales/fondo.png) repeat;
+    border: 4px solid #615839;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 23px -2px rgb(89 75 29);
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .categoria {
+      opacity: 0.3;
+      text-align: left;
+    }
+
+    .pregunta {
+      padding: 10px;
+    }
+
+    .imagen {
+      object-fit: cover;
+      height: 0px;
+      width: 0px;
+    }
+
+    .btn {
+      min-width: 500px;
+      max-width: 500px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+      -webkit-text-stroke: 1px rgb(242, 235, 235);
+      background: linear-gradient(to bottom, #f6b03f 5%, #998746 100%);
+      border: 1px solid #615839;
+      border-radius: 5px;
+      box-shadow: inset 0 1px 3px 0 #000;
+      color: #f9f9f6;
+      font-family: 'Alfa Slab One', cursive;
+      font: size 1px;;
+      padding: 17px 51px;
+      text-decoration: none;
+      text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+      text-transform: uppercase;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    
+    .numero{
+      position: absolute;
+      opacity:0.3;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .puntaje{
+      padding:10px;
+      color:white;
+    }
+    button{
+      margin:0 auto;
+      margin:auto;
+      width: min-content;
+      top: 20px;
+      position: flex;
+      background-color: black;
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #000000 5%, #eded21 100%);
+	background-color:#000000;
+	border-radius:18px;
+	border:1px solid #cfcf19;
+	display:inline-block;
+	cursor:pointer;
+	color:#f5f0f5;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	font-style:italic;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:1px 3px 0px #810e05;
+}
+div{
+  text-align:center;
+  content:center;
+}
+  </style>
+
+  
+<body>
+  
+  
+     
+  <form action="index.html">
+   <a href="index.html" class="myButton">inicio</a>
+</form>
+<div class="contenedor">
+ <div class="puntaje" id="puntaje"></div>
+ <div class="encabezado">
+   <div class="categoria" id="categoria">
+   </div>
+   <div class="numero" id="numero"></div>
+   <div class="pregunta" id="pregunta">
+   </div>
+   <img src="#" class="imagen" id="imagen">
+ </div>
+ <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+ <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+ <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+ <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+ 
+ <script src="/java_general/index.js"></script>
+</div>
+
+</body></html>
