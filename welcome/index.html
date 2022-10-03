@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Welcome</title>
+</head>
+<body>
+  <div class="mainContainer">
+    <div class="mainContainer__div">
+      <div class="welcomeMessage">
+        <div class="welcomeMessage__div">
+          <h2 class="welcomeMessage__h2">
+            Welcome
+          </h2>
+          <p class="welcomeMessage__p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi aliquid voluptas nam laudantium dignissimos. 
+            Saepe, ratione quasi ab hic fuga mollitia dicta sed reiciendis nam et maxime veniam dolores earum?
+          </p>
+        </div>
+      </div>
+      <div class="formContainer">
+        <div class="formContainer__div">
+          <h2 class="formContainer__h2--signin selected">Sign In</h2>
+          <h2 class="formContainer__h2--signup">Sign Up</h2>
+        </div>
+        <form class="signInForm">
+          <div>
+            <input name="username" class="styled_input" type="text" placeholder="Ingresa tu nombre de usuario">
+          <input name="password" class="styled_input" type="password" placeholder="Ingresa tu contraseña">
+          <button type="submit" class="styled_button">Continuar</button>
+          </div>
+        </form>
+
+        <form class="signUnForm hidden">
+          <div>
+              <input name="username" class="styled_input" type="text" placeholder="Ingresa tu nombre de usuario">
+            <input name="email" class="styled_input" type="email" placeholder="Ingresa tu correo electrónico">
+            <input name="password" class="styled_input" type="password" placeholder="Ingresa tu contraseña">
+            <button type="submit" class="styled_button">Crear cuenta</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
