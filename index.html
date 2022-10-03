@@ -108,7 +108,9 @@
   }
 
         
-
+  .hidden {
+    display: none;
+  }
         
 
     
@@ -160,8 +162,14 @@
         <marquee height="100%" width="100%" direction="left" scrollamount="1000">
           SO
         </marquee>
-          
-          </header>
+          <span id="user-info"></span>
+          <button id="login-btn">
+            Login
+          </button>
+          <button id="logout-btn">
+            Logout
+          </button>
+        </header>
         <main>
           <section>
             <article><br>
@@ -192,6 +200,30 @@
         <footer>
         Desarrollado por Guadalupe ,Lau y El hombre bomba
         </footer>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script type="module">
+      import { getUserData, logout } from "./java_general/user_session/user-ops.js";
+      const $userInfo = document.querySelector("#user-info");
+      const $loginBtn = document.querySelector("#login-btn");
+      const $logoutBtn = document.querySelector("#logout-btn");
 
+      const user = getUserData();
+      if (user) {
+        $userInfo.textContent = `Bienvenido ${user.username}`;
+        $loginBtn.classList.add("hidden");
+        $logoutBtn.classList.remove("hidden")
+      }else {
+        $userInfo.textContent = ``;
+        $loginBtn.classList.remove("hidden");
+        $logoutBtn.classList.add("hidden")
+      }
+
+      $logoutBtn.onclick = function () {
+        logout();
+      }
+      $loginBtn.onclick = function () {
+        window.location.assign("/welcome/")
+      }
+    </script>
 </body>
 </html>
